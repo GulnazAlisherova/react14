@@ -7,4 +7,4 @@ function ExchangeRate(props) {
    );
 }
 
-export default ExchangeRate;
+export default ExchangeRate; 
