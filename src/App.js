@@ -1,11 +1,14 @@
 
-import ExchangeRate from "./components/ExchangeRate";
+// import ExchangeRate from "./components/ExchangeRate";
+
+import InputA from "./InputA";
+import InputB from "./InputB";
 
 function App() {
   return (
     <div className="App">
-      <ExchangeRate from="USD" to="KGS"/>
-      <ExchangeRate from="EUR" to="KGS"/>
+      <InputA />
+      <InputB />
     </div>
   );
 }
@@ -36,6 +39,9 @@ export default App;
 //     color: `rgb(${color.red}), ${color.green}, ${color.blue}`,
 //   }
 
-   {/* <h1 style={styles}>Hello world</h1>
+{/* <h1 style={styles}>Hello world</h1>
       <span>{number}</span>
       <button onClick={() => setNumber(number + 1)}>+</button> */}
+{/* <ExchangeRate from="USD" to="KGS"/>
+      <ExchangeRate from="EUR" to="KGS"/>
+      <ExchangeRate from="KGS" to="USD"/> */}
